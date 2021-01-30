@@ -14,5 +14,5 @@ test('should show sorted array', () => {
   result = sortCharsForHealth(chars);
 
   expect(result).toEqual(expected);
-  expect(result).toBe(expected);
+  expect(result).not.toBe(expected);
 });
